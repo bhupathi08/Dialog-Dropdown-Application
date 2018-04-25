@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dialog Dropdown</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<dialog id="favDialog">
+  <form method="dialog">
+    <section>
+      <p><label for="select">Select Image:</label>
+        <select id="ImagesList">
+            <option value=null>Select Image</option>
+            <option value="Images/home.jpg">Home</option>
+            <option value="Images/Idea.png">Idea</option>
+            <option value="Images/star.png">Star</option>
+        </select>
+      </p>
+      <img id="image" src="" />
+    </section>
+    <menu>
+      <button id="cancel" type="reset">Cancel</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="imageSelector">Image Selector</button>
+</menu>
+<script src="script.js"></script>
+</body>
+
+</html>
